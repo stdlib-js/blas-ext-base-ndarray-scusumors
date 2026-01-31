@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import scusumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-scusumors@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-ndarray-scusumors/tags). For example,
+
+```javascript
 import scusumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-scusumors@v0.1.0-esm/index.mjs';
 ```
 
@@ -115,7 +120,7 @@ import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ctor@esm
 import zerosLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-zeros-like@esm/index.mjs';
 import scalar2ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-from-scalar@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
-import scusumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-scusumors@v0.1.0-esm/index.mjs';
+import scusumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-scusumors@esm/index.mjs';
 
 var xbuf = discreteUniform( 10, -50, 50, {
     'dtype': 'float32'
