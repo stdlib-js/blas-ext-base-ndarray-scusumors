@@ -50,7 +50,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-scusumors = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-scusumors@umd/browser.js' )
+scusumors = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-scusumors@v0.1.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -62,7 +62,7 @@ var scusumors = require( 'path/to/vendor/umd/blas-ext-base-ndarray-scusumors/ind
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-scusumors@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-scusumors@v0.1.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -137,7 +137,7 @@ The function has the following parameters:
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-zeros-like@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-from-scalar@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-scusumors@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-scusumors@v0.1.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
